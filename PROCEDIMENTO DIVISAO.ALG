@@ -2,14 +2,14 @@ Algoritmo "procedimento divisao"
 Procedimento OPERACAOBETA
 
 var
-aux: inteiro
+aux: real
 inicio
-aux <- a \ b
+aux <- a / b
 res <- aux
 fimprocedimento
 
 var
-res, a, b: inteiro
+res, a, b: real
 
 inicio
 a <- 20
@@ -17,7 +17,7 @@ b <- 5
 
 OPERACAOBETA
 
-escreval(res)
+escreval(res:4:2)
 
 
 Fimalgoritmo
