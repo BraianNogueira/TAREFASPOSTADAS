@@ -12,7 +12,7 @@ Inicio
   totalcoelhos <- 0
   totalsapos <- 0
 
-  escreval("quantos casos de testes serao digitados? ")
+  escreva("quantos casos de testes serao digitados? ")
   leia(n)
   
   para i de 1 ate n faca
@@ -26,10 +26,10 @@ Inicio
          totalratos <- totalratos + qte
       senao
          se tipocobaia = "S" entao
-            totalsapos <- tatalsapos + qte
+            totalsapos <- totalsapos + qte
          senao
             se tipocobaia = "C" entao
-               totalcobras <- tatalcoelhos + qte
+               totalcoelhos <- totalcoelhos + qte
             fimse
          fimse
       fimse
@@ -43,7 +43,7 @@ Inicio
   
   escreval
   escreval("RELATORIO FINAL:")
-  escreval("total ", totalcobais, " cobaias")
+  escreval("total ", totalcobaias, " cobaias")
   escreval("total de coelhos: ", totalcoelhos)
   escreval("total de sapos: ", totalsapos)
   escreval("total de ratos: ", totalratos)
